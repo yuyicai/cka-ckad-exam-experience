@@ -16,9 +16,9 @@
 
 **报名地址:** 
 
-- [CKA](https://www.cncf.io/certification/cka/)
+- [CKA报名](https://www.cncf.io/certification/cka/)
 
-- [CKAD](https://www.cncf.io/certification/ckad/)
+- [CKAD报名](https://www.cncf.io/certification/ckad/)
 
 报名成功之后，可在12个月之内进行考试，考试不过有一次补考机会。
 
@@ -30,25 +30,31 @@
 
 **获取证书条件:** 
 
-CKA：74分或以上可以获得证书；CKAD：66分或以上可以获得证书  
+~~CKA：74分或以上可以获得证书~~ (最新规定已经改成66分)
+
+CKA：66分或以上可以获得证书, 详见[官方说明](https://docs.linuxfoundation.org/tc-docs/certification/faq-cka-ckad-cks#what-score-is-needed-to-pass-the-exam)
+
+CKAD：66分或以上可以获得证书  
 
 
 
 **关于中文监考:** 
 
-CKA有中文监考监控员会中文，报名费可以支持支付宝付款
+CKA有中文监考监控员（会中文），报名费可以支持支付宝付款
 
 CKAD暂时没发现有中文监控
 
-[中文监控报名流程](https://training.linuxfoundation.cn/faq#14)
+[中文监考报名流程](https://training.linuxfoundation.cn/help/16)
 
 
 
-**国内现场考点:** 
+**~~国内现场考点:~~** 
 
-如果你没有合适的考试环境，可以考虑到现场考点去考试，我没去过现场考点，具体请咨询说明里面的考点电话
+~~如果你没有合适的考试环境，可以考虑到现场考点去考试，我没去过现场考点，具体请咨询说明里面的考点电话~~
 
-[国内考点说明](https://training.linuxfoundation.cn/faq#13)
+[~~国内考点说明~~](https://training.linuxfoundation.cn/faq#13)
+
+目前[2021-03-18]查看 https://training.linuxfoundation.cn/ 已经找不到线下考试说明
 
 
 
@@ -60,7 +66,7 @@ CKAD暂时没发现有中文监控
 
 购买课程后会将考试报名优惠码（100%优惠，就是不用再付费了，抵消300美金的考试报名费）发到邮箱，报名优惠码有效期为一个月，使用优惠码报名之后12个月内进行考试   
 
-如下图，最下面那个349美金的订单是购买CKA+CKAD的课程套餐，上面两个订单（CKA和CKAD考试报名订单）是用购买课程送的优惠码买的   
+如下图，最下面那个349美金的订单是购买CKA+CKAD的课程套餐，图中上面两个0元订单（CKA和CKAD考试报名订单）是用购买课程送的优惠码买的   
 
 ![](./images/orders.png)
 
@@ -68,7 +74,7 @@ CKAD暂时没发现有中文监控
 
 如果你等不及Cyber Monday，可以找一下国内培训机构，可能他们手上有优惠报名资格。
 
-或者在[这里](https://www.goodshop.com/coupons/the-linux-foundation)查看一下优惠码，不同时候看折扣不一样，有时候是9折，有时候是85折，例如现在（2020-01-24）是85折，如下图所示：
+或者在[这里](https://www.goodshop.com/coupons/the-linux-foundation)查看一下优惠码（或许会有优惠码），不同时候看折扣不一样，有时候是9折，有时候是85折，例如现在（2020-01-24）是85折，如下图所示：
 
 
 
@@ -82,13 +88,17 @@ CKAD暂时没发现有中文监控
 
 # 备考  
 
-考试时你可以打开两个浏览器Tab，一个是考试窗口，一个用来查阅官方文档（仅允许访问https://kubernetes.io/docs/、https://github.com/kubernetes/ 和https://kubernetes.io/blog/ ）
+*考试时你可以打开两个浏览器Tab，一个是考试窗口，一个用来查阅官方文档（仅允许访问https://kubernetes.io/docs/、https://github.com/kubernetes/ 和https://kubernetes.io/blog/ ）*
 
 *注意：在官方文档搜索时，结果有可能并不是在https://kubernetes.io/docs/ 和 https://kubernetes.io/blog/ 子域下，不能在考试中点开*
 
-github上分别有两个关于CKA和CKAD练习的仓库。如果你只看官方文档，能够完成仓库里面的题目，考过线是没有问题的。（练习过程中不要直接去答案里面复制yaml，应该去官方文档查找复制，熟悉相关内容在官方文档的位置）
+*github上分别有两个关于CKA和CKAD练习的仓库。如果你只看官方文档，能够完成仓库里面的题目，考过线是没有问题的。（练习过程中不要直接去答案里面复制yaml，应该去官方文档查找复制，熟悉相关内容在官方文档的位置）*
 
-[CKA练习](https://github.com/stretchcloud/cka-lab-practice)、[CKAD练习](https://github.com/dgkanatsios/CKAD-exercises)
+
+
+**CKA练习（强烈推荐）:** https://github.com/stretchcloud/cka-lab-practice
+
+CKAD练习: https://github.com/dgkanatsios/CKAD-exercises)
 
 除了上面的练习题，还需要熟悉了使用[kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)创建集群
 
@@ -100,17 +110,13 @@ github上分别有两个关于CKA和CKAD练习的仓库。如果你只看官方�
 
 
 
-其他：[华为云CKA培训课程](https://bbs.huaweicloud.com/forum/thread-11064-1-1.html)（我没看过这个课程视频，不知道质量怎样，这里仅贴出地址）
-
-
-
 # 考前检查及考试环境
 
 - **考试形式:** 在线监控，需要共享桌面和摄像头  
 
 - **考试环境:** 在一个密闭空间，例如书房、卧室、会议室等，电脑屏幕不能对着窗户，房间里除了考生不能存在第二个人，考试的桌面不能放其它东西，水杯也不行  
 
-- **考试时间及题目:** CKA-3小时-24道题、CKAD-2小时-19道题
+- **考试时间:** CKA、CKAD均为两小时
 
 - **选择考试时间:** 报名成功之后可以在12个月之内进行考试，考试之前需要选择考试时间，选择考试时间的时候记得先选择北京时区，默认是0时区时间。
 
@@ -125,10 +131,10 @@ github上分别有两个关于CKA和CKAD练习的仓库。如果你只看官方�
 - **考试前考官检查:** 
 
   - 考试可以提前15分钟进入考试界面
-  - 考官会以发消息的方式和你交流（没有语音交流）
+  - 考官会在网页中的聊天窗口发送消息的和你交流（没有语音交流）
   - 看不懂考官发的英文怎么办：可以在chrome浏览器右键翻译
   - 考官会让你共享摄像头，共享桌面
-  - 考官会让你出示能确认你身份ID的证件，我当时用的是罗技C310摄像头，无法对焦，护照看上去模糊到不行，后来考官又叫我给护照打光还是不行，后面又叫我打开我的手机，用手机相机当作放大镜用，这样才能看清楚。（我考CKAD的时候，我护照还没举稳，考官就说可以了，应该是考过CKA，他们系统里面已经有我的信息了，就随便瞄了一眼而已）
+  - 考官会让你出示能确认你身份ID的证件，我当时用的是罗技C310摄像头（建议大选用可用对焦的摄像头），无法对焦，护照看上去模糊到不行，后来考官叫我给护照打光还是不行。最后的解决方法是打开我的手机，用手机相机当作放大镜用，这样才能看清楚。（我考CKAD的时候，我护照还没举稳，考官就说可以了，应该是考过CKA，他们系统里面已经有我的信息了，就随便瞄了一眼而已）
   - 考官会让你用摄像头环视房间一周，确认你的考试环境（当时我房间门开了一个小缝也要求我去把门关好，还是比较严格）
   - 考官会让你用摄像头看你的整个桌面和桌子底下
   - 考官会让你再次点一下桌面共享，然后你叫你点击取消，然后就开始进入考试了
@@ -152,7 +158,7 @@ github上分别有两个关于CKA和CKAD练习的仓库。如果你只看官方�
 
 - **考试难度**
 
-  总的来说CKA考试还是相对简单的，如果你有k8s生产环境维护使用经验，大可以直接考试，过线是没问题的  ；CKAD难度也不大，题量较CKA大，需要注意每道题不超过6分钟
+  总的来说CKA考试还是相对简单的，如果你有k8s生产环境维护使用经验，大可以直接考试，过线是没问题的  ；CKAD难度也不大，题量较CKA大，需要注意每道题的时间分配
 
 - **kubectl自动补全**
 
