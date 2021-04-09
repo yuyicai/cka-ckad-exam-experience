@@ -24,7 +24,17 @@
 
 *注意：需要有美元币种信用卡（Visa之类），如果没有可以叫亲朋好友帮付款或者考虑中文监考考试（支持支付宝付款）*
 
-*报名的姓名不要乱填，需要和护照上的汉语拼音一致*
+
+
+**关于考试者认证证件:** 
+
+- 护照 / 港澳通行证
+
+  如果使用护照 / 港澳通行证作为身份验证，考试者姓名需要填写名字拼音（与证件一致）
+
+- 身份证
+
+  如果没有护照、港澳通行证之类的带名字拼音的证据，使用身份证考试也可以（目前只在中文监考`CKA-CN`验证过使用身份证考试），若使用身份证来验证身份，选择考场时填写考试者姓名需要填写中文（与证件一致），这样证书的名字是中文的
 
 
 
@@ -38,7 +48,7 @@ CKAD：66分或以上可以获得证书
 
 
 
-**关于中文监考:** 
+**关于中文监考（CKA-CN）:** 
 
 CKA有中文监考监控员（会中文），报名费可以支持支付宝付款
 
@@ -100,13 +110,16 @@ CKAD暂时没发现有中文监控
 
 CKAD练习: https://github.com/dgkanatsios/CKAD-exercises)
 
-除了上面的练习题，还需要熟悉了使用[kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)创建集群
+除了上面的练习题，还需要熟悉了使用[kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/)创建集群、升级集群
 
 
 
-练习环境：[katacoda](https://www.katacoda.com/courses/kubernetes/kubectl-run-containers)
+在线练习环境：
 
-建议大家至少在这个k8s环境里练习一次，主要是熟悉一下web终端和卡顿的网络  
+- [katacoda](https://www.katacoda.com/courses/kubernetes/kubectl-run-containers)
+- [play-with-k8s](https://labs.play-with-k8s.com/)
+
+建议大家至少任意一个在线k8s环境里练习一次，主要是熟悉一下web终端  
 
 
 
@@ -162,7 +175,7 @@ CKAD练习: https://github.com/dgkanatsios/CKAD-exercises)
 
 - **kubectl自动补全**
 
-  注意使用kubectl自动补全，考试环境默认已经配置了kubectl自动补全，无需考生另行配置，但是这还不够，我们可以用`k`代替kubectl  [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+  注意使用kubectl自动补全，考试环境默认已经配置了kubectl自动补全，无需考生另行配置，但是这还不够，我们可以用`k`代替`kubectl`  [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
   ```
   alias k=kubectl
