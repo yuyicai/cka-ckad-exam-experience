@@ -96,9 +96,12 @@ CKAD：66分或以上可以获得证书
 
 这个考试真的是比较简单那种，只要认真练习`CKA练习`，拿66分以上没啥难度  
 
-**CKA练习（强烈推荐）:** https://github.com/stretchcloud/cka-lab-practice
+CKA练习: 
+- https://github.com/stretchcloud/cka-lab-practice （这个已经蛮久没更新了，虽然考岗有一些变动，但是练习还是适用的）
+- https://github.com/David-VTUK/CKA-StudyGuide
 
-CKAD练习: https://github.com/dgkanatsios/CKAD-exercises)
+CKAD练习: 
+- https://github.com/dgkanatsios/CKAD-exercises)
 
 在练习时需要注意，不能直接看练习里面的答案，必须从官方文档查找答案，加深对官方文档的熟悉程度，可以将练习中使用到的官方文档保存到浏览器收藏夹，方便考生时直接点开来复制 yaml
 
