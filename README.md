@@ -101,7 +101,7 @@ CKA练习:
 - https://github.com/David-VTUK/CKA-StudyGuide
 
 CKAD练习: 
-- https://github.com/dgkanatsios/CKAD-exercises)
+- https://github.com/dgkanatsios/CKAD-exercises
 
 在练习时需要注意，不能直接看练习里面的答案，必须从官方文档查找答案，加深对官方文档的熟悉程度，可以将练习中使用到的官方文档保存到浏览器收藏夹，方便考生时直接点开来复制 yaml
 
